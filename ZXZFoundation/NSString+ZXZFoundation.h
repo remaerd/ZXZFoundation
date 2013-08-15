@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NSString (SCFoundation)
+@interface NSString (ZXZFoundation)
 
 - (NSString *)stringByDecodingHTMLEntities;
 - (UIColor*)colorFromHexString;

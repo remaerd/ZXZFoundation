@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034069A917BCF425001185F4 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 034069A217BCF425001185F4 /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		034069AA17BCF425001185F4 /* NSDate+SCFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 034069A417BCF425001185F4 /* NSDate+SCFoundation.m */; };
+		034069AB17BCF425001185F4 /* NSString+ZXZFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 034069A617BCF425001185F4 /* NSString+ZXZFoundation.m */; };
+		0348302D17BB8EC700747EDE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B3ED141799473700F2FE16 /* CoreData.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		037CA12F1707FE840051ACDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037CA12E1707FE840051ACDB /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		037CA1291707FE840051ACDB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		034069A117BCF425001185F4 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+HTML.h"; path = "ZXZFoundation/GTMNSString+HTML.h"; sourceTree = SOURCE_ROOT; };
+		034069A217BCF425001185F4 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+HTML.m"; path = "ZXZFoundation/GTMNSString+HTML.m"; sourceTree = SOURCE_ROOT; };
+		034069A317BCF425001185F4 /* NSDate+SCFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+SCFoundation.h"; path = "ZXZFoundation/NSDate+SCFoundation.h"; sourceTree = SOURCE_ROOT; };
+		034069A417BCF425001185F4 /* NSDate+SCFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+SCFoundation.m"; path = "ZXZFoundation/NSDate+SCFoundation.m"; sourceTree = SOURCE_ROOT; };
+		034069A517BCF425001185F4 /* NSString+ZXZFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ZXZFoundation.h"; path = "ZXZFoundation/NSString+ZXZFoundation.h"; sourceTree = SOURCE_ROOT; };
+		034069A617BCF425001185F4 /* NSString+ZXZFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ZXZFoundation.m"; path = "ZXZFoundation/NSString+ZXZFoundation.m"; sourceTree = SOURCE_ROOT; };
+		034069A717BCF425001185F4 /* SCFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCFoundation.h; path = ZXZFoundation/SCFoundation.h; sourceTree = SOURCE_ROOT; };
+		034069A817BCF425001185F4 /* ZXZFoundation-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ZXZFoundation-Prefix.pch"; path = "ZXZFoundation/ZXZFoundation-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		037CA12B1707FE840051ACDB /* libZXZFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZXZFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037CA12E1707FE840051ACDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03B3ED141799473700F2FE16 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		037CA1281707FE840051ACDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0348302D17BB8EC700747EDE /* CoreData.framework in Frameworks */,
+				037CA12F1707FE840051ACDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034069A017BCF391001185F4 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				034069A117BCF425001185F4 /* GTMNSString+HTML.h */,
+				034069A217BCF425001185F4 /* GTMNSString+HTML.m */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		037CA1221707FE840051ACDB = {
+			isa = PBXGroup;
+			children = (
+				037CA1301707FE840051ACDB /* ZXZFoundation */,
+				037CA12D1707FE840051ACDB /* Frameworks */,
+				037CA12C1707FE840051ACDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		037CA12C1707FE840051ACDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				037CA12B1707FE840051ACDB /* libZXZFoundation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		037CA12D1707FE840051ACDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03B3ED141799473700F2FE16 /* CoreData.framework */,
+				037CA12E1707FE840051ACDB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		037CA1301707FE840051ACDB /* ZXZFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				034069A317BCF425001185F4 /* NSDate+SCFoundation.h */,
+				034069A417BCF425001185F4 /* NSDate+SCFoundation.m */,
+				034069A517BCF425001185F4 /* NSString+ZXZFoundation.h */,
+				034069A617BCF425001185F4 /* NSString+ZXZFoundation.m */,
+				034069A717BCF425001185F4 /* SCFoundation.h */,
+				034069A017BCF391001185F4 /* Vendors */,
+				037CA1311707FE840051ACDB /* Supporting Files */,
+			);
+			name = ZXZFoundation;
+			path = SCFoundation;
+			sourceTree = "<group>";
+		};
+		037CA1311707FE840051ACDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				034069A817BCF425001185F4 /* ZXZFoundation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		037CA12A1707FE840051ACDB /* ZXZFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037CA1391707FE840051ACDB /* Build configuration list for PBXNativeTarget "ZXZFoundation" */;
+			buildPhases = (
+				037CA1271707FE840051ACDB /* Sources */,
+				037CA1281707FE840051ACDB /* Frameworks */,
+				037CA1291707FE840051ACDB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXZFoundation;
+			productName = SCFoundation;
+			productReference = 037CA12B1707FE840051ACDB /* libZXZFoundation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		037CA1231707FE840051ACDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Extremely Limited";
+			};
+			buildConfigurationList = 037CA1261707FE840051ACDB /* Build configuration list for PBXProject "ZXZFoundation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 037CA1221707FE840051ACDB;
+			productRefGroup = 037CA12C1707FE840051ACDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				037CA12A1707FE840051ACDB /* ZXZFoundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		037CA1271707FE840051ACDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034069A917BCF425001185F4 /* GTMNSString+HTML.m in Sources */,
+				034069AA17BCF425001185F4 /* NSDate+SCFoundation.m in Sources */,
+				034069AB17BCF425001185F4 /* NSString+ZXZFoundation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		037CA1371707FE840051ACDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		037CA1381707FE840051ACDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		037CA13A1707FE840051ACDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ZXZFoundation.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZXZFoundation/ZXZFoundation-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ZXZFoundation;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		037CA13B1707FE840051ACDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ZXZFoundation.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZXZFoundation/ZXZFoundation-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ZXZFoundation;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037CA1261707FE840051ACDB /* Build configuration list for PBXProject "ZXZFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037CA1371707FE840051ACDB /* Debug */,
+				037CA1381707FE840051ACDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037CA1391707FE840051ACDB /* Build configuration list for PBXNativeTarget "ZXZFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037CA13A1707FE840051ACDB /* Debug */,
+				037CA13B1707FE840051ACDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 037CA1231707FE840051ACDB /* Project object */;
+}

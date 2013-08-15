@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 Extremely Limited. All rights reserved.
 //
 
-#import "NSString+SCFoundation.h"
+#import "NSString+ZXZFoundation.h"
 #import "GTMNSString+HTML.h"
 
-@implementation NSString (SCFoundation)
+@implementation NSString (ZXZFoundation)
 
 - (NSString *)stringByDecodingHTMLEntities {
 	return [NSString stringWithString:[self gtm_stringByUnescapingFromHTML]];

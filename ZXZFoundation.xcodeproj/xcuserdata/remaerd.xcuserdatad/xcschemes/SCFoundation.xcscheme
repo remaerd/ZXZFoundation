@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "037CA12A1707FE840051ACDB"
-               BuildableName = "libSCFoundation.a"
-               BlueprintName = "SCFoundation"
-               ReferencedContainer = "container:SCFoundation.xcodeproj">
+               BuildableName = "libZXZFoundation.a"
+               BlueprintName = "ZXZFoundation"
+               ReferencedContainer = "container:ZXZFoundation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
