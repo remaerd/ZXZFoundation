@@ -8,6 +8,5 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SCFoundation : NSObject
-
-@end
+#import "NSManagedObject+SCFoundation.h"
+#import "NSString+SCFoundation.h"

@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		037CA12F1707FE840051ACDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037CA12E1707FE840051ACDB /* Foundation.framework */; };
+		0348302D17BB8EC700747EDE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B3ED141799473700F2FE16 /* CoreData.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0361134B1781557200168BC4 /* SCLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036113481781557200168BC4 /* SCLoopViewController.m */; };
+		0364A7AE17B520AB003BEAA0 /* SCSwipeableTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364A7AD17B520AB003BEAA0 /* SCSwipeableTableCell.m */; };
+		0364A7B117B52297003BEAA0 /* SCSwipeableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364A7B017B52297003BEAA0 /* SCSwipeableTableViewController.m */; };
+		0364A7B417B522AE003BEAA0 /* SCSwipeableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364A7B317B522AE003BEAA0 /* SCSwipeableViewController.m */; };
+		036A998417BC42D300316B47 /* NSManagedObject+SCFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 036A998317BC42D300316B47 /* NSManagedObject+SCFoundation.m */; };
+		036A998717BC451F00316B47 /* SCCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 036A998617BC451F00316B47 /* SCCoreDataManager.m */; };
+		037CA12F1707FE840051ACDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037CA12E1707FE840051ACDB /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		037CA1341707FE840051ACDB /* SCFoundation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 037CA1331707FE840051ACDB /* SCFoundation.h */; };
-		037CA1361707FE840051ACDB /* SCFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 037CA1351707FE840051ACDB /* SCFoundation.m */; };
+		03905794179E860B00F81CEF /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 03905793179E860B00F81CEF /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		03905797179E862300F81CEF /* NSString+SCFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 03905796179E862300F81CEF /* NSString+SCFoundation.m */; };
+		03BC6EEF17BCDE3400EB6F7C /* SCNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BC6EEE17BCDE3400EB6F7C /* SCNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +35,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		036113471781557200168BC4 /* SCLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLoopViewController.h; sourceTree = "<group>"; };
+		036113481781557200168BC4 /* SCLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLoopViewController.m; sourceTree = "<group>"; };
+		0364A7AC17B520AB003BEAA0 /* SCSwipeableTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSwipeableTableCell.h; sourceTree = "<group>"; };
+		0364A7AD17B520AB003BEAA0 /* SCSwipeableTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSwipeableTableCell.m; sourceTree = "<group>"; };
+		0364A7AF17B52297003BEAA0 /* SCSwipeableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSwipeableTableViewController.h; sourceTree = "<group>"; };
+		0364A7B017B52297003BEAA0 /* SCSwipeableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSwipeableTableViewController.m; sourceTree = "<group>"; };
+		0364A7B217B522AE003BEAA0 /* SCSwipeableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSwipeableViewController.h; sourceTree = "<group>"; };
+		0364A7B317B522AE003BEAA0 /* SCSwipeableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSwipeableViewController.m; sourceTree = "<group>"; };
+		036A998217BC42D300316B47 /* NSManagedObject+SCFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+SCFoundation.h"; sourceTree = "<group>"; };
+		036A998317BC42D300316B47 /* NSManagedObject+SCFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+SCFoundation.m"; sourceTree = "<group>"; };
+		036A998517BC451F00316B47 /* SCCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCoreDataManager.h; sourceTree = "<group>"; };
+		036A998617BC451F00316B47 /* SCCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCoreDataManager.m; sourceTree = "<group>"; };
 		037CA12B1707FE840051ACDB /* libSCFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSCFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		037CA12E1707FE840051ACDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		037CA1321707FE840051ACDB /* SCFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCFoundation-Prefix.pch"; sourceTree = "<group>"; };
 		037CA1331707FE840051ACDB /* SCFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCFoundation.h; sourceTree = "<group>"; };
-		037CA1351707FE840051ACDB /* SCFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCFoundation.m; sourceTree = "<group>"; };
+		03905792179E860B00F81CEF /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		03905793179E860B00F81CEF /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		03905795179E862300F81CEF /* NSString+SCFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SCFoundation.h"; sourceTree = "<group>"; };
+		03905796179E862300F81CEF /* NSString+SCFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SCFoundation.m"; sourceTree = "<group>"; };
+		03B3ED141799473700F2FE16 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03BC6EED17BCDE3400EB6F7C /* SCNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNavigationViewController.h; sourceTree = "<group>"; };
+		03BC6EEE17BCDE3400EB6F7C /* SCNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0348302D17BB8EC700747EDE /* CoreData.framework in Frameworks */,
 				037CA12F1707FE840051ACDB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +73,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0348303717BB8F4E00747EDE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03BC6EED17BCDE3400EB6F7C /* SCNavigationViewController.h */,
+				03BC6EEE17BCDE3400EB6F7C /* SCNavigationViewController.m */,
+				036113471781557200168BC4 /* SCLoopViewController.h */,
+				036113481781557200168BC4 /* SCLoopViewController.m */,
+				0364A7B217B522AE003BEAA0 /* SCSwipeableViewController.h */,
+				0364A7B317B522AE003BEAA0 /* SCSwipeableViewController.m */,
+				0364A7AF17B52297003BEAA0 /* SCSwipeableTableViewController.h */,
+				0364A7B017B52297003BEAA0 /* SCSwipeableTableViewController.m */,
+				0364A7AC17B520AB003BEAA0 /* SCSwipeableTableCell.h */,
+				0364A7AD17B520AB003BEAA0 /* SCSwipeableTableCell.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0348303817BB8F5D00747EDE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				03905795179E862300F81CEF /* NSString+SCFoundation.h */,
+				03905796179E862300F81CEF /* NSString+SCFoundation.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		036A997E17BC426800316B47 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				036A998217BC42D300316B47 /* NSManagedObject+SCFoundation.h */,
+				036A998317BC42D300316B47 /* NSManagedObject+SCFoundation.m */,
+				036A998517BC451F00316B47 /* SCCoreDataManager.h */,
+				036A998617BC451F00316B47 /* SCCoreDataManager.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
 		037CA1221707FE840051ACDB = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +130,7 @@
 		037CA12D1707FE840051ACDB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				03B3ED141799473700F2FE16 /* CoreData.framework */,
 				037CA12E1707FE840051ACDB /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -74,7 +140,10 @@
 			isa = PBXGroup;
 			children = (
 				037CA1331707FE840051ACDB /* SCFoundation.h */,
-				037CA1351707FE840051ACDB /* SCFoundation.m */,
+				0348303817BB8F5D00747EDE /* Categories */,
+				036A997E17BC426800316B47 /* Core Data */,
+				0348303717BB8F4E00747EDE /* View Controllers */,
+				03905791179E85DF00F81CEF /* Vendors */,
 				037CA1311707FE840051ACDB /* Supporting Files */,
 			);
 			path = SCFoundation;
@@ -86,6 +155,15 @@
 				037CA1321707FE840051ACDB /* SCFoundation-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03905791179E85DF00F81CEF /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				03905792179E860B00F81CEF /* GTMNSString+HTML.h */,
+				03905793179E860B00F81CEF /* GTMNSString+HTML.m */,
+			);
+			name = Vendors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +217,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				037CA1361707FE840051ACDB /* SCFoundation.m in Sources */,
+				0364A7B117B52297003BEAA0 /* SCSwipeableTableViewController.m in Sources */,
+				0364A7B417B522AE003BEAA0 /* SCSwipeableViewController.m in Sources */,
+				036A998717BC451F00316B47 /* SCCoreDataManager.m in Sources */,
+				03905794179E860B00F81CEF /* GTMNSString+HTML.m in Sources */,
+				0361134B1781557200168BC4 /* SCLoopViewController.m in Sources */,
+				0364A7AE17B520AB003BEAA0 /* SCSwipeableTableCell.m in Sources */,
+				036A998417BC42D300316B47 /* NSManagedObject+SCFoundation.m in Sources */,
+				03905797179E862300F81CEF /* NSString+SCFoundation.m in Sources */,
+				03BC6EEF17BCDE3400EB6F7C /* SCNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +328,7 @@
 				037CA13B1707FE840051ACDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
